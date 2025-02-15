@@ -80,13 +80,13 @@ local function Koumoku()
         local i = 1
         Status.B = {}
         i = AddStatus({type = 'B', Tag = 'drop',Num = i, Name = '確泥(妖怪)',
-                        ['UG'] = {{offset = '3957110',Value = {[off] = 'h F6 03 1F 2A',[on] = 'h 20 11 22 2A'}}}})
+                        ['UG'] = {{offset = '3A1A8E0',Value = {[off] = 'h F6 03 1F 2A',[on] = 'h 20 11 22 2A'}}}})
         i = AddStatus({type = 'B', Tag = 'drop',Num = i, Name = '確泥エラー回避',
                         ['UG'] = {{offset = '3F64B8C',Value = {[off] = 'h E0 03 1F 2A',[on] = 'h 20 00 80 52'}}}})
         i = AddStatus({type = 'B', Tag = 'drop',Num = i, Name = '妖怪泥無効',
-                        ['UG'] = {{offset = '39570D4',Value = {[off] = 'h F3 03 1F 2A',[on] = 'h 33 00 80 52'}}}})
+                        ['UG'] = {{offset = '3A1A8A4',Value = {[off] = 'h F3 03 1F 2A',[on] = 'h 33 00 80 52'}}}})
         i = AddStatus({type = 'B', Tag = 'drop',Num = i, Name = 'アイテム泥無効',
-                        ['UG'] = {{offset = '323F248',Value = {[off] = 'h FD 7B BA A9',[on] = 'h C0 03 5F D6'}}}})
+                        ['UG'] = {{offset = '32F81D0',Value = {[off] = 'h FD 7B BA A9',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = 'フレンドアイコン無効',
                         ['UG'] = {{offset = '4408E04',Value = {[off] = 'h FF 83 03 D1',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = '会話無効',
@@ -95,34 +95,34 @@ local function Koumoku()
                         ['UG'] = {{offset = '453D4F0',Value = {[off] = 'h FF 43 02 D1',[on] = 'h C0 03 5F D6'}},
                                  {offset = '4713B70',Value = {[off] = 'h FF 43 02 D1',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = 'ランキング無効',
-                        ['UG'] = {{offset = '44E0F08',Value = {[off] = 'h FD 7B BA A9',[on] = 'h C0 03 5F D6'}}}})
+                        ['UG'] = {{offset = '45A4C20',Value = {[off] = 'h FD 7B BA A9',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = 'スコアタ無効',
-                        ['UG'] = {{offset = '43538DC',Value = {[off] = 'h FF C3 05 D1',[on] = 'h C0 03 5F D6'}}}})
+                        ['UG'] = {{offset = '444B060',Value = {[off] = 'h FF C3 05 D1',[on] = 'h C0 03 5F D6'}}}})
         --i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = '郵便無効',
         --                ['UG'] = {{offset = '42A2BF4',Value = {[off] = 'h FF C3 02 D1',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = '封印無効',
-                        ['UG'] = {{offset = '47143B4',Value = {[off] = 'h FF C3 02 D1',[on] = 'h C0 03 5F D6'}}}})
+                        ['UG'] = {{offset = '47F6724',Value = {[off] = 'h FF C3 02 D1',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '倍速',
-                        ['UG'] = {{offset = '323CAA8',Value = {[off] = 'h EB FE FF 54',[S_(1.5)] = 'h 00 28 28 1E',[S_(2)] = 'h 00 10 28 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 50 28 1E',[S_(5)] = 'h 00 10 2A 1E'}}}})
+                        ['UG'] = {{offset = '240F08C',Value = {[off] = 'h EB FE FF 54',[S_(1.5)] = 'h 00 28 28 1E',[S_(2)] = 'h 00 10 28 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 50 28 1E',[S_(5)] = 'h 00 10 2A 1E'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'ぷに遅延',
-                        ['UG'] = {{offset = '3994E60',Value = {[off] = 'h 00 18 28 1E',[S_(2)] = 'h 00 50 2A 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 10 28 1E'}}}})
+                        ['UG'] = {{offset = '3A58630',Value = {[off] = 'h 00 18 28 1E',[S_(2)] = 'h 00 50 2A 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 10 28 1E'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'ワンパン',
-                        ['UG'] = {{offset = '3B7AFF0',Value = {[off] = 'h 81 00 00 54',[on] = 'h 80 00 00 54'}}}})
+                        ['UG'] = {{offset = '3C3E744',Value = {[off] = 'h 81 00 00 54',[on] = 'h 80 00 00 54'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '敵ターン無効',
-                        ['UG'] = {{offset = '3F15AF0',Value = {[off] = 'h 96 83 08 91',[on] = 'h 96 07 00 91'}}}})
+                        ['UG'] = {{offset = '3E4D64C',Value = {[off] = 'h 96 83 08 91',[on] = 'h 96 07 00 91'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'スコア',
-                        ['UG'] = {{offset = '3F15804',Value = {[off] = 'h 01 00 15 8B',[on] = 'h 21 B3 A0 D2'}}}})
+                        ['UG'] = {{offset = '3E4D360',Value = {[off] = 'h 01 00 15 8B',[on] = 'h 21 B3 A0 D2'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'リザルトスキップ',
-                        ['UG'] = {{offset = '3F08980',Value = {[off] = 'h 1F 0C 00 71',[on] = 'h 1F 04 00 71'}}}})
+                        ['UG'] = {{offset = '3E404DC',Value = {[off] = 'h 1F 0C 00 71',[on] = 'h 1F 04 00 71'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '鍵演出スキップ',
-                        ['UG'] = {{offset = '4948014',Value = {[off] = 'h 01 09 40 B9 21 03 00 34',[on] = 'h 1F 09 40 B9 21 03 00 35'}}}})
+                        ['UG'] = {{offset = '4A10470',Value = {[off] = 'h 01 09 40 B9 21 03 00 34',[on] = 'h 1F 09 40 B9 21 03 00 35'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'チュートリアルスキップ',
-                        ['UG'] = {{offset = '515236C',Value = {[off] = 'h 01 01 01 01',[on] = 'h 00 00 00 00'}}}})
+                        ['UG'] = {{offset = '525CED4',Value = {[off] = 'h 01 01 01 01',[on] = 'h 00 00 00 00'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'スコアタ郵便イベ解放',
-                        ['UG'] = {{offset = '44E04FC',Value = {[off] = 'h FF 03 01 D1',[on] = 'h C0 03 5F D6'}},
-                                 {offset = '46B6CB4',Value = {[off] = 'h 21 00 80 52',[on] = 'h E1 03 1F 2A'}}}})
+                        ['UG'] = {{offset = '45A4214',Value = {[off] = 'h FF 03 01 D1',[on] = 'h C0 03 5F D6'}},
+                                 {offset = '477C2E0',Value = {[off] = 'h 21 00 80 52',[on] = 'h E1 03 1F 2A'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '箱落ち回避',
-                        ['UG'] = {{offset = '235F4CC',Value = {[off] = 'h 21 01 27 1E 00 01 27 1E',[on] = 'h 00 01 27 1E 21 00 26 1E'}}}})
+                        ['UG'] = {{offset = '476E4CC',Value = {[off] = 'h 21 01 27 1E 00 01 27 1E',[on] = 'h 00 01 27 1E 21 00 26 1E'}}}})
     end
 end
 
@@ -271,7 +271,11 @@ function tyuui()
     '　■ぷに遅延は一度戦闘画面へ行くとその状態で固定されます\n' ..
     '　■倍速、ぷに遅延はご自身で調整してください\n' ..
     '　■確泥エラー回避はなつき5体時の稀なエラーを回避するものですBAN回避などではありません\n' ..
-    '　■人魂演出無効、フィニッシュ演出無効は倍速環境ではBANの可能性があるため検証して使用ください\n'
+    '　■人魂演出無効、フィニッシュ演出無効は倍速環境ではBANの可能性があるため検証して使用ください\n' ..
+    '　■フレンドアイコン無効は調整中です\n' ..
+    '　■会話無効は調整中です\n' ..
+    '　■虫眼鏡無効は調整中です\n' ..
+    '　■確泥エラー回避は調整中です\n' ..
     )
 end
 
