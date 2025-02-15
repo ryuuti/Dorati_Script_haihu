@@ -121,12 +121,14 @@ local function Koumoku()
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'スコアタ郵便イベ解放',
                         ['UG'] = {{offset = '44E04FC',Value = {[off] = 'h FF 03 01 D1',[on] = 'h C0 03 5F D6'}},
                                  {offset = '46B6CB4',Value = {[off] = 'h 21 00 80 52',[on] = 'h E1 03 1F 2A'}}}})
+        i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '箱落ち回避',
+                        ['UG'] = {{offset = '235F4CC',Value = {[off] = 'h 21 01 27 1E 00 01 27 1E',[on] = 'h 00 01 27 1E 21 00 26 1E'}}}})
     end
 end
 
 local function ShokiSettei()
-    _G.NN = _G.NN or '4.134.1'
-    if _G.NN ~= 'MSDK' and (os.date('%Y%m%d%H%M') >= '202501312359' or _G.NN ~= '4.134.1') then
+    _G.NN = _G.NN or '4.136.1'
+    if _G.NN ~= 'MSDK' and (os.date('%Y%m%d%H%M') >= '202502312359' or _G.NN ~= '4.136.1') then
         gg.alert('✔︎︎︎scriptの有効期限が切れています✔︎scriptが更新されるまでしばらくお待ちください')
         EXIT()
     end
