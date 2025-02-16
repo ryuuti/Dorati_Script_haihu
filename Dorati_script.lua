@@ -104,7 +104,7 @@ local function Koumoku()
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = '封印無効',
                         ['UG'] = {{offset = '47F66F4',Value = {[off] = 'h FF C3 02 D1',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '倍速',
-                        ['UG'] = {{offset = '32F5A30',Value = {[off] = 'h EB FE FF 54',[S_(1)] = 'h 00 28 28 1E',[S_(2)] = 'h 00 10 28 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 50 28 1E',[S_(5)] = 'h 00 10 2A 1E'}}}})
+                        ['UG'] = {{offset = '32F5A00',Value = {[off] = 'h EB FE FF 54',[S_(1)] = 'h 00 28 28 1E',[S_(2)] = 'h 00 10 28 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 50 28 1E',[S_(5)] = 'h 00 10 2A 1E'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'ぷに遅延',
                         ['UG'] = {{offset = '3A58600',Value = {[off] = 'h 00 18 28 1E',[S_(2)] = 'h 00 50 2A 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 10 28 1E'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'ワンパン',
