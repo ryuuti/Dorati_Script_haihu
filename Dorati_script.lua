@@ -74,7 +74,7 @@ local function Koumoku()
         --[[i = AddStatus({type = 'A', Tag = 'NoneA',Num = i, Name = '完凸用', toggle = {['ワンパン'] = {[on] = on, [off] = off}, ['敵ターン無効'] = {[on] = on, [off] = off}, ['スコア'] = {[on] = on, [off] = off}, ['アイテム泥無効'] = {[on] = on, [off] = off}, ['妖怪泥無効'] = {[on] = off, [off] = on}, ['鍵演出スキップ'] = {[on] = on, [off] = off}, ['リザルトスキップ'] = {[on] = on, [off] = off}, ['フレンドアイコン無効'] = {[on] = on, [off] = off}, ['会話無効'] = {[on] = on, [off] = off}, ['虫眼鏡無効'] = {[on] = on, [off] = off}, ['封印無効'] = {[on] = on, [off] = off},['確泥(妖怪)'] = {[on] = on, [off] = off}, ['確泥エラー回避'] = {[on] = on, [off] = off}}})]]
         --[[i = AddStatus({type = 'A', Tag = 'NoneA',Num = i, Name = 'Yポ周回用', toggle = {['ワンパン'] = {[on] = on, [off] = off}, ['敵ターン無効'] = {[on] = on, [off] = off}, ['スコア'] = {[on] = on, [off] = off}, ['妖怪泥無効'] = {[on] = on, [off] = off}, ['鍵演出スキップ'] = {[on] = on, [off] = off}, ['リザルトスキップ'] = {[on] = on, [off] = off}, ['フレンドアイコン無効'] = {[on] = on, [off] = off}, ['会話無効'] = {[on] = on, [off] = off}, ['虫眼鏡無効'] = {[on] = on, [off] = off}, ['封印無効'] = {[on] = on, [off] = off}, }})]]
         --i = AddStatus({type = 'A', Tag = 'NoneA',Num = i, Name = '周回用', toggle = {['箱落ち回避'] = {[on] = on, [off] = off}, ['ワンパン'] = {[on] = on, [off] = off}, ['敵ターン無効'] = {[on] = on, [off] = off}, ['スコア'] = {[on] = on, [off] = off},['妖怪泥無効'] = {[on] = on, [off] = off}, ['鍵演出スキップ'] = {[on] = on, [off] = off}, ['リザルトスキップ'] = {[on] = on, [off] = off}, ['フレンドアイコン無効'] = {[on] = on, [off] = off}, ['会話無効'] = {[on] = on, [off] = off}, ['虫眼鏡無効'] = {[on] = on, [off] = off}, ['封印無効'] = {[on] = on, [off] = off},}})
-        i = AddStatus({type = 'A', Tag = 'NoneA',Num = i, Name = '周回用', toggle = {['妖怪泥演出スキップ'] = {[on] = on, [off] = off}, ['フレンドアイコン無効'] = {[on] = on, [off] = off}, ['撃破後判定無効(ゲート)'] = {[on] = on, [off] = off}, ['虫眼鏡無効'] = {[on] = on, [off] = off}, ['フレンドアイコン無効(ゲート)'] = {[on] = on, [off] = off}, ['箱落ち回避'] = {[on] = on, [off] = off}, ['ワンパン'] = {[on] = on, [off] = off}, ['敵ターン無効'] = {[on] = on, [off] = off}, ['スコア'] = {[on] = on, [off] = off},['妖怪泥無効'] = {[on] = on, [off] = off}, ['鍵演出スキップ'] = {[on] = on, [off] = off}, ['リザルトスキップ'] = {[on] = on, [off] = off}, ['封印無効'] = {[on] = on, [off] = off},}})
+        i = AddStatus({type = 'A', Tag = 'NoneA',Num = i, Name = '周回用', toggle = {['即勝利'] = {[on] = on, [off] = off}, ['妖怪泥演出スキップ'] = {[on] = on, [off] = off}, ['フレンドアイコン無効'] = {[on] = on, [off] = off}, ['撃破後判定無効(ゲート)'] = {[on] = on, [off] = off}, ['虫眼鏡無効'] = {[on] = on, [off] = off}, ['フレンドアイコン無効(ゲート)'] = {[on] = on, [off] = off}, ['箱落ち回避'] = {[on] = on, [off] = off}, ['ワンパン'] = {[on] = on, [off] = off}, ['敵ターン無効'] = {[on] = on, [off] = off}, ['スコア'] = {[on] = on, [off] = off},['妖怪泥無効'] = {[on] = on, [off] = off}, ['鍵演出スキップ'] = {[on] = on, [off] = off}, ['リザルトスキップ'] = {[on] = on, [off] = off}, ['封印無効'] = {[on] = on, [off] = off},}})
         i = AddStatus({type = 'A', Tag = 'NoneA',Num = i, Name = '初期垢用スキップ', toggle = {['チュートリアルスキップ'] = {[on] = on, [off] = off},['スコアタ郵便イベ解放'] = {[on] = on, [off] = off}}})
     end
     if true then
@@ -106,13 +106,15 @@ local function Koumoku()
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = '封印無効',
                         ['UG'] = {{offset = '47F66F4',Value = {[off] = 'h FF C3 02 D1',[on] = 'h C0 03 5F D6'}}}})
         i = AddStatus({type = 'B', Tag = 'Mukou',Num = i, Name = '撃破後判定無効(ゲート)',
-                        ['UG'] = {{offset = '451BFFC',Value = {[off] = 'h FD 7B 09 A9',[on] = 'h C0 03 5F D6'}}}})
+                        ['UG'] = {{offset = '451BFFC',Value = {[off] = 'h 28 09 00 34',[on] = 'h 49 00 00 14'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '倍速',
                         ['UG'] = {{offset = '32F5A00',Value = {[off] = 'h EB FE FF 54',[S_(1)] = 'h 00 28 28 1E',[S_(2)] = 'h 00 10 28 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 50 28 1E',[S_(5)] = 'h 00 10 2A 1E'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'ぷに遅延',
                         ['UG'] = {{offset = '3A58600',Value = {[off] = 'h 00 18 28 1E',[S_(2)] = 'h 00 50 2A 1E',[S_(3)] = 'h 00 D0 28 1E',[S_(4)] = 'h 00 10 28 1E'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'ワンパン',
                         ['UG'] = {{offset = '3C3E714',Value = {[off] = 'h 81 00 00 54',[on] = 'h 80 00 00 54'}}}})
+        i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '即勝利',
+                        ['UG'] = {{offset = '3E4F9F0',Value = {[off] = 'h 40 01 00 54',[on] = 'h 41 01 00 54'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = '敵ターン無効',
                         ['UG'] = {{offset = '3E4D61C',Value = {[off] = 'h 96 83 08 91',[on] = 'h 96 07 00 91'}}}})
         i = AddStatus({type = 'B', Tag = 'NoneB',Num = i, Name = 'スコア',
